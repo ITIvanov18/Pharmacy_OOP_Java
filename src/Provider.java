@@ -11,8 +11,8 @@ public class Provider {
 
     public Provider() {
         this.name = "Sopharmacy";
-        this.address = "Ferdinandova 5, Burgas";
-        this.phoneNumber = "0896762103";
+        this.address = "ул. Фердинандова 5, Бургас";
+        this.phoneNumber = "+359 896 2103";
     }
 
     public String getName() {

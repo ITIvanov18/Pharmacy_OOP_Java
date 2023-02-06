@@ -1,9 +1,9 @@
 public class Manufacturer {
     public String name;
     public String address;
-    public int phoneNumber;
+    public String phoneNumber;
 
-    public Manufacturer(String name, String address, int phoneNumber) {
+    public Manufacturer(String name, String address, String phoneNumber) {
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;
@@ -11,7 +11,7 @@ public class Manufacturer {
 
     public Manufacturer() {
         this.name = "Reckitt Benckiser";
-        this.address = "United Kingdom";
+        this.address = "Великобритания";
         this.phoneNumber = "+44 1753 217800";
     }
 
@@ -23,7 +23,7 @@ public class Manufacturer {
         return address;
     }
 
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
@@ -35,7 +35,7 @@ public class Manufacturer {
         this.address = address;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 

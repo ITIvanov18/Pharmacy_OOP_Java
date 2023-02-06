@@ -17,7 +17,7 @@ public class Main {
             System.out.println("5. Покажи списък с всички вносители");
             System.out.println("6. Изход");
             System.out.println();
-            System.out.print("Изберете: ");
+            System.out.print("Изберете опция от менюто: ");
             int n = scanner.nextInt();
 
             switch (n) {

@@ -13,7 +13,7 @@ public class Medicine {
     public Medicine() {
         this.price = 34.99;
         this.name = "Nurofen";
-        this.expirationDate = "31.08.2024";
+        this.expirationDate = "31.08.2024г";
     }
 
     public double getPrice() {
@@ -36,7 +36,7 @@ public class Medicine {
         this.name = name;
     }
 
-    public void setExpiration_date(String expirationDate {
+    public void setExpiration_date(String expirationDate) {
         this.expirationDate = expirationDate;
     }
 
@@ -45,7 +45,7 @@ public class Medicine {
         return "Medicine{" +
                 "price=" + price +
                 ", name='" + name + '\'' +
-                ", expiration_date=" + expirationDate +
+                ", expirationDate=" + expirationDate +
                 '}';
     }
 }
